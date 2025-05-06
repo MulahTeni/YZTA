@@ -1,6 +1,6 @@
-# Sınav Sonucu Analizi ve Çalışma Planı Uygulaması (Gemini API ile)
+# Sınav Sonucu Analizi ve Çalışma Planı Uygulaması (Gemini API ile) - GRUP 63
 
-Bu proje, öğrencilerin sınav sonuçlarını analiz eden ve onlara çalışma planı sunan bir yapay zeka destekli Gradio uygulamasıdır. Google Gemini API'si kullanılarak, yüklenen görsellerden ve yazılı sorulardan anlam çıkarılmakta ve kişiye özgü tavsiyeler sunulmaktadır.
+Bu proje, öğrencilerin sınav sonuçlarını analiz eden ve onlara çalışma planı sunan bir yapay zeka destekli Gradio uygulamasıdır. Google Gemini API'si kullanılarak, yüklenen görsellerden ve yazılı sorulardan anlam çıkarılmakta ve kişiye özgü tavsiyeler sunulmaktadır. Google Yapay Zeka Teknoloji Akademisi Hackathon için Grup 63 tarafından hazırlanmıştır.
 
 ---
 
@@ -8,7 +8,7 @@ Bu proje, öğrencilerin sınav sonuçlarını analiz eden ve onlara çalışma 
 
 ```bash
 .
-├── app.py                 # Ana Python dosyası (Gradio arayüzü ve Gemini API entegrasyonu)
+├── main.py                 # Ana Python dosyası (Gradio arayüzü ve Gemini API entegrasyonu)
 ├── requirements.txt       # Gerekli Python kütüphaneleri
 └── README.md              # Bu doküman
 ```
@@ -30,8 +30,8 @@ Bu proje, öğrencilerin sınav sonuçlarını analiz eden ve onlara çalışma 
 ### 1. Depoyu klonlayın
 
 ```bash
-git clone https://github.com/kullaniciadi/gemini-egitim-danismani.git
-cd gemini-egitim-danismani
+git clone https://github.com/kullaniciadi/YZTA.git
+cd YZTA
 ```
 
 ### 2. Sanal ortam (isteğe bağlı)
@@ -55,7 +55,7 @@ Bu uygulama, Google Gemini API'yi kullanmaktadır. Bu nedenle bir API anahtarın
 
 1. [Google AI Studio](https://makersuite.google.com/app) sitesinden hesabınızla girin.
 2. Bir API anahtarı oluşturun.
-3. `app.py` dosyasını açın ve şu satırı bulup anahtarınızı girin:
+3. `main.py` dosyasını açın ve şu satırı bulup anahtarınızı girin:
 
 ```python
 GEMINI_API_KEY = ""  # Buraya kendi API anahtarınızı yazın
@@ -70,7 +70,7 @@ Not: Anahtar boş bırakıldıysa uygulama içinde kutudan girmeniz gerekir.
 Projeyi başlatmak için:
 
 ```bash
-python app.py
+python main.py
 ```
 
 Arayüz otomatik olarak açılacak ya da terminalde verilen URL'den ulaşabilirsiniz.
@@ -105,6 +105,3 @@ MIT Lisansı
 
 ---
 
-## 💬 İletisim
-
-Herhangi bir sorunuz için: [melih@email.com](mailto:melih@email.com)
